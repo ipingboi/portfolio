@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import sassy from "../../Assets/Projects/sassy.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import koderesto from "../../Assets/Projects/koderesto.png";
 
 function Projects() {
   return (
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={sassy}
               isBlog={false}
               title="Sassy Band Website"
               description="A static website for a local band that utilizes HTML, Bootstrap 5 and a little Javascript."
@@ -31,12 +31,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={koderesto}
               isBlog={false}
-              title="ANIFLIX"
-              description="Using Reactjs to create an anime website utilizing JIKAN Anime API."
-              ghLink="https://github.com/ipingboi/AniFlix"
-              
+              title="KodeResto"
+              description="a static fictitious restaurant website that utilizes Bootstrap 5."
+              ghLink="https://github.com/ipingboi/KodeResto"
+              demoLink="https://koderestodemo.netlify.app/"              
             />
           </Col>
 
