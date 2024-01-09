@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import sassy from "../../Assets/Projects/sassy.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import kodecamp from "../../Assets/Projects/kodecamp.png";
 import koderesto from "../../Assets/Projects/koderesto.png";
 
 function Projects() {
@@ -39,15 +39,14 @@ function Projects() {
               demoLink="https://koderestodemo.netlify.app/"              
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={kodecamp}
               isBlog={false}
-              title=""
-              description=""
-              ghLink=""
-              demoLink=""
+              title="KodeCamp"
+              description="A static website using HTML, CSS, Bootstrap 5. Also ulitizes fundamentals API like random user and mapbox."
+              ghLink="https://github.com/ipingboi/KodeCamp"
+              demoLink="https://kodecampdemo.netlify.app/"
             />
           </Col>
         </Row>
